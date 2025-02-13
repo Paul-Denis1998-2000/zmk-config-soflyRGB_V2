@@ -66,8 +66,8 @@
             display-name = "raise";
             bindings = <
 &kp ESC    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                         &bl BL_ON        &bl BL_OFF       &rgb_ug RGB_ON   &rgb_ug RGB_OFF  &trans  &kp BSPC
-&kp CAPS   &bt BT_CLR    &trans        &trans        &trans        &trans                               &bl BL_INC       &bl BL_DEC       &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &trans  &trans
-&kp TAB    &trans        &trans        &trans        &trans        &trans                               &trans           &trans           &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &trans  &trans
+&kp CAPS   &bt BT_CLR    &studio_unlock &trans        &trans        &trans                               &bl BL_INC       &bl BL_DEC       &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &trans  &studio_unlock
+&kp TAB    &trans        &trans        &trans        &trans        &trans                               &trans           &trans           &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &trans  &studio_unlock
 &kp LSHFT  &trans        &trans        &trans        &trans        &trans        &kp C_MUTE    &trans   &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &trans  &studio_unlock
                          &kp LALT      &kp LGUI      &kp LCTRL     &mo 3         &kp SPACE     &kp RET  &trans           &kp RCTRL        &kp RGUI         &kp RALT
             >;
